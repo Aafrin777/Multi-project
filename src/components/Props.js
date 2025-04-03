@@ -1,6 +1,7 @@
 import React from 'react';
 import propTypes from 'prop-types';
 
+//DEFAULT props:
 const Props = ({ title = 'set title here', aboutText = 'about text here' }) => {
   return (
     <>
